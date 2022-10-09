@@ -1,0 +1,32 @@
+.post {
+  margin: auto;
+  text-align: center;
+  border: 10px;
+}
+/* .container {
+  animation: pulse 2s infinite;
+} */
+.image {
+  max-width: 100%;
+}
+input {
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: gray;
+  }
+  25% {
+    background-color: blueviolet;
+  }
+  50% {
+    background-color: pink;
+  }
+  100% {
+    background-color: lightpink;
+  }
+}
